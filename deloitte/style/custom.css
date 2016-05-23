@@ -1,0 +1,125 @@
+/* Custom CSS
+-------------------------*/
+
+div.logo {
+    background: url([[setting:logo]]) no-repeat 0 0;
+    display: block;
+    float: left;
+    height: 75px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.dir-rtl div.logo {
+    background: url([[setting:logo]]) no-repeat 100% 0;
+    display: block;
+    float: right;
+}
+
+
+/*
+#88c700 green text
+#012877 hyperlink text
+#88c700 background blue
+#FFFFFF white text
+*/
+
+
+/*Top Navigation Bar - Brand Name*/
+
+.navbar .brand {
+    color: #88c700;
+    text-shadow: 0px 0px #88c700;
+}
+
+
+/*Top Navigation Bar - Color*/
+
+.navbar-inner {
+    background: #012877;
+}
+
+
+/*Top Naigation Bar - UserName DropDown*/
+
+.usermenu .moodle-actionmenu .toggle-display {
+    color: #FFFFFF;
+}
+
+.usermenu .moodle-actionmenu .toggle-display:hover {
+    color: #88c700;
+}
+
+
+/*Navigation Drop Down Menu*/
+
+.moodle-actionmenu[data-enhanced].show .menu {
+    background: #012877;
+}
+
+.jsenabled .usermenu .moodle-actionmenu.show .menu a:hover {
+    background: #88c700;
+}
+
+.moodle-actionmenu[data-enhanced].show .menu a {
+    color: #FFFFFF;
+}
+
+
+/*Navigation Menu - User Name (while drop down after click)*/
+
+.jsenabled .usermenu .moodle-actionmenu.show {
+    background: #88c700;
+}
+
+.usermenu .moodle-actionmenu .toggle-display:hover {
+    color: #FFFFFF;
+}
+
+
+/*Login Page top navigation username*/
+
+.usermenu .login {
+    color: #FFFFFF;
+}
+
+.usermenu .login a {
+    color: #FFFFFF;
+}
+
+.usermenu .login a:hover,
+.usermenu .login a:focus {
+    color: #88c700;
+}
+
+
+/*The hyperlink text */
+
+
+/*
+a {
+    color: #012877;
+}*/
+
+/*Chrome Fix for - Focus event blue border*/
+a:focus {
+    outline: none;
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+}
+
+
+/*All the hyperlink with hover effect*/
+
+a:hover,
+a:focus {
+    color: #88c700;
+}
+
+
+/* Custom CSS Settings
+-------------------------*/
+
+[[setting:customcss]]
