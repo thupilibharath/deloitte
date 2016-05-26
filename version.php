@@ -30,8 +30,8 @@
 
 defined('MOODLE_INTERNAL') || die;
 
-$plugin->version   = 2016052005;
-$plugin->requires  = 2015111000;
+//$plugin->version   = 2016052005;
+//$plugin->requires  = 2015111000;
 $plugin->component = 'theme_deloitte';
 $plugin->dependencies = array(
     'theme_bootstrapbase'  => 2015111000,
