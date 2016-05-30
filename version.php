@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Moodle's deloitte theme, an example of how to make a Bootstrap theme
+ * Moodle's Deloitte theme, an example of how to make a Bootstrap theme
  *
  * DO NOT MODIFY THIS THEME!
  * COPY IT FIRST, THEN RENAME THE COPY AND MODIFY IT INSTEAD.
@@ -30,9 +30,9 @@
 
 defined('MOODLE_INTERNAL') || die;
 
-//$plugin->version   = 2016052005;
-//$plugin->requires  = 2015111000;
+$plugin->version   = 2016052702;
+$plugin->requires  = 2015050500;
 $plugin->component = 'theme_deloitte';
 $plugin->dependencies = array(
-    'theme_bootstrapbase'  => 2015111000,
+    'theme_bootstrapbase'  => 2015050500,
 );

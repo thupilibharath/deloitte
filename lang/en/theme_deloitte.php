@@ -32,8 +32,7 @@ $string['choosereadme'] = '
 <h3>About</h3>
 <p>Deloitte is a modified Moodle bootstrap theme which inherits styles and renderers from its parent theme.
 <br/>
-The look and feel of this theme is inline with Deloitte Standards.
-</p>
+The look and feel of this theme is inline with Deloitte Standards.</p>
 <h3>Parents</h3>
 <p>This theme is based upon the Bootstrap theme, which was created for Moodle 2.5, with the help of:<br>
 Stuart Lamour, Mark Aberdour, Paul Hibbitts, Mary Evans.</p>
@@ -66,3 +65,4 @@ $string['pluginname'] = 'Deloitte';
 
 $string['region-side-post'] = 'Right';
 $string['region-side-pre'] = 'Left';
+

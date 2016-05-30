@@ -1,16 +1,8 @@
-# Setup the theme: #
-1. Create a folder 'deloitte' in 'moodleParentFolder\server\moodle\theme\' directory.
-2. Extract the files and folder from the repo to the newly created 'deloitte' folder.
-3. Start the moodle server and go to the Administration->'Site administration'->Notification menu. The new theme 'Deloitte' would be listed. Read the instructions and install.
-4. After installing the theme successfully, navigate to Administration->'Site administration'->Appearance->Themes->'Theme selector' menu.
-5. Select the 'Deloitte' theme for 'default' category.
-6. Also, 'Clear theme cache' for deleting cached data/css.
-7. Boom, you are done with the setup. The new look and feel of Deloitte Standard theme will be applied to whole moodle site.
 
 /* How to copy and customise this theme.
 ----------------------------------------*/
 
-This document describes how to copy and customise the Clean (bootstrapbase) theme so that
+This document describes how to copy and customise the Deloitte (bootstrapbase) theme so that
 you can build on this to create a theme of your own. It assumes you have some
 understanding of how themes work within Moodle 2.5, as well as a basic understanding
 of HTML and CSS.
@@ -18,13 +10,13 @@ of HTML and CSS.
 Getting started
 ---------------
 
-From your Moodle theme directory right click on clean and then copy and paste back
-into your Moodle theme directory. You should now have a folder called Copy of clean.
+From your Moodle theme directory right click on deloitte and then copy and paste back
+into your Moodle theme directory. You should now have a folder called Copy of deloitte.
 If you right click this folder you are given the option to Rename it. So rename this
 folder to your chosen theme name, using only lower case letters, and if needed,
-underscores. For the purpose of this tutorial we will call the theme 'cleantheme'.
+underscores. For the purpose of this tutorial we will call the theme 'deloittetheme'.
 
-On opening 'cleantheme' your you will find several files and sub-directories which have
+On opening 'deloittetheme' your you will find several files and sub-directories which have
 files within them.
 
 These are:
@@ -46,7 +38,7 @@ version.php
     if and when you want to add them.
 /lang/en/
     This sub-directory contains your language files, in this case English.
-/lang/en/theme_clean.php
+/lang/en/theme_deloitte.php
     This file contains all the language strings for your theme.
     (Contains some elements that require renaming as well as the filename itself).
 /layout/
@@ -81,10 +73,10 @@ Renaming elements
 -----------------
 
 The problem when copying a theme is that you need to rename all those instances
-where the old theme name occurs, in this case clean. So using the above list as
+where the old theme name occurs, in this case deloitte. So using the above list as
 a guide, search through and change all the instances of the theme name
-'clean' to 'cleantheme'. This includes the filename of the lang/en/theme_clean.php.
-You need to change this to 'theme_cleantheme.php'.
+'deloitte' to 'deloittetheme'. This includes the filename of the lang/en/theme_deloitte.php.
+You need to change this to 'theme_deloittetheme.php'.
 
 Installing your theme
 ---------------------
@@ -98,17 +90,17 @@ If not then navigate to Administration > Notifications.
 Once your theme is successfully installed you can select it and begin to modify
 it using the custom settings page found by navigating to...
 Administration > Site Administration > Appearance > Themes >>
-and then click on (Cleantheme) or whatever you renamed your theme to,
+and then click on (Deloittetheme) or whatever you renamed your theme to,
 from the list of theme names that appear at this point in the side block.
 
 Customisation using custom theme settings
 -----------------------------------------
 
-The settings page for the Clean theme can be located by navigating to:
+The settings page for the Deloitte theme can be located by navigating to:
 
-Administration > Site Administration > Appearance > Themes > Clean
+Administration > Site Administration > Appearance > Themes > Deloitte
 
 Moodle documentation
 --------------------
 
-Further information can be found on Moodle Docs: http://docs.moodle.org/dev/Clean_theme
+Further information can be found on Moodle Docs: http://docs.moodle.org/dev/Deloitte_theme
